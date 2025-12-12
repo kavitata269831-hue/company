@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+         header {
+  background-color:rgb(245, 135, 245);
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  height: 150px;
+  font-family: inika, inter;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto; 
+}
+
+.logo img {
+  height: 150px; 
+  width: 150px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  float: inline-end;
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+}
+
+nav ul li {
+  margin-left: 15px; 
+  color:black;
+  padding: 5px;
+  justify-content: space-evenly;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: inika, inter;
+  font-size: larger;
+  float: inline-end;
+}
+
+.search-container {
+  position: relative;
+  display: flex; 
+  align-items: center;
+  font-family: inika, inter;
+  float: inline-start;
+  
+}
+
+.search-input {
+  border-radius: 10px;
+  float: inline-start;
+  height: 50px;
+  width: 400px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 10px; 
+  padding: 1rem;
+  width: 10px;
+  height: 70%;
+}
+.btn{
+  background-color: lightgreen;
+  color: black;
+  height: 59px;
+  width: 80px;
+  border: 10px;
+  font-family: inika, inter;
+}
+.btn:hover{
+  background-color: lightgreen;
+}
+.container{
+    height: 300px;
+    width: 90% ;
+    background-color: plum;
+    position: relative;
+    left: 10px;
+    font-family: inika, inter;
+    font-size: large;
+    margin: auto;
+}
+.card{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.foot11{
+  background-color: rgb(244, 244, 72);
+  font-family: inika, inter;
+  font-size: larger;
+  color:black;
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.link{
+  flex: 1;
+  padding: 10px;
+}
+.para{
+  margin: 0;
+  padding: 0%;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: auto;
+}
+
+
+</style>
+</head>
+<body>
+     <header>
+  <div class="navbar-container">
+    <div class="logo">
+      <a href="/"><img src="logo.png" alt="Company Logo"></a>
+    </div>
+    <div class="search-container">
+  <input type="text" class="search-input" placeholder="Search...">
+  <i class="search-icon fas fa-search" ></i> 
+  <img src="cart.png" height="50px" width="50px" style="justify-content: space-evenly;" >
+  <img src="notification .png" height="50px" width="50px" style="justify-content: space-evenly;">
+</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="/PRODUCT.HTML">Product</a></li>
+        
+        <li><a href="/SERVICES.HTML">Services</a></li>
+        
+        <li><a href="/CONTACT.HTML">Contact</a></li>
+        <li><a href="/BLOG.HTML">Blog</a></li>
+      
+      </ul>
+    </nav>
+    <a href="/login.html"><button class="btn"for="submit">Register</button>   </a>
+  </div>
+</header>
+<div class="container">
+    <div class="card">
+        <img src="newzeland.png" style="float: left;" height="300px">
+        <h1>Amanda Faulkner(New Zealand)</h1>
+        <p>"My Applke watch keot sending alerts that my resting heart rate was very higher than normal... i eventually decided to see my GP. That decision probably saved my life - it led to a diagnosis of actute myeloid leukemia </p>
+    </div>
+</div>
+<img src="tech.png" width="100%">
+<img src="frank.png" width="100%">
+ <footer class="foot11">
+    <img src="logo.png" height="200px" width="200px">
+    <ul type="none" class="link">
+      <h2>Company</h2>
+      <li>About</li>
+      <li>Services</li>
+      <li>Community</li>
+      <li>Testimonials</li>
+    </ul>
+   <ul type="none"   class="link">
+      <h2>Support</h2>
+      <li>Help Center</li>
+      <li>Webians</li>
+      <li>Feedback</li>
+      
+    </ul>
+     <ul type="none"  class="link">
+      <h2>Links</h2>
+      <li>Courses</li>
+      <li>Services</li>
+      <li>All in one</li>
+    </ul>
+     <ul type="none" class="link">
+      <h2>Contact info</h2>
+      <li><i class="glyphicon glyphicon-envelope"></i>nazeer2000@gmail.com</li>
+      <li>+91-869-011-0011</li>
+          </ul>
+  </footer>
+</body>
+</html>
